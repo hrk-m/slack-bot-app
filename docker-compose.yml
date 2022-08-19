@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  web:
+    volumes:
+      - .:/myapp
+    build: .
+    command: bash -c "rackup"
+    stdin_open: true
+    tty: true
