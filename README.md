@@ -9,6 +9,12 @@
 
 ### 立ち上げ
 
+※ 事前にSlack トークンを取得してください。
+
+- `.env.sample`のコピーファイル`.env`を作成する。
+- `.env`ファイルの`SLACK_API_TOKEN`の環境変数にSlack トークンを設定する.
+  - SLACK_API_TOKEN=xoxb-xxxxxxxxxxxxxxxxx
+
 ```
 docker-compose up --build -d
 ```
