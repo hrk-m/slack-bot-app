@@ -12,3 +12,6 @@ gem 'celluloid-io'
 gem 'slack-ruby-bot'
 
 gem 'dotenv'
+
+gem 'pry'
+gem 'pry-byebug'
