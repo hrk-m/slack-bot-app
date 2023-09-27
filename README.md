@@ -15,3 +15,7 @@
 ```
 docker-compose up --build -d
 ```
+
+### デプロイ方法
+
+無料でデプロイしたい場合は、[Render.com](https://render.com/) を使うとデプロイできます。
